@@ -6,7 +6,6 @@
 //  Copyright © 2020 Santiago Moreno. All rights reserved.
 //
 import AVFoundation
-import Alamofire
 import FirebaseFirestore
 import UIKit
 
@@ -98,7 +97,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
     }
 
     func found(code: String) {
-        if(code == "https://qrco.de/bbTgXA"){
+        if(code == "http://embed.walk360.co/VideoDetail.aspx?v=796"){
             //selectorLabel.text = code;
             killTheMusicService()
         }
